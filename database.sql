@@ -24,10 +24,10 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `students`
+-- Table structure for table `pepito`
 --
 
-CREATE TABLE `students` (
+CREATE TABLE `pepito` (
   `id` int(11) NOT NULL,
   `name` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL,
@@ -35,10 +35,10 @@ CREATE TABLE `students` (
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `students`
+-- Dumping data for table `pepito`
 --
 
-INSERT INTO `students` (`id`, `name`, `email`, `phone`) VALUES
+INSERT INTO `pepito` (`id`, `name`, `email`, `phone`) VALUES
 (23, 'motech noel', 'mosesnoel02@gmail.com', '+255752541568'),
 (24, 'Thiago Moses', 'moses@noel.com', '0712541669'),
 (25, 'Saratex Marie', 'moses@noel.com', '0712541669'),
@@ -49,9 +49,9 @@ INSERT INTO `students` (`id`, `name`, `email`, `phone`) VALUES
 --
 
 --
--- Indexes for table `students`
+-- Indexes for table `pepito`
 --
-ALTER TABLE `students`
+ALTER TABLE `pepito`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -59,9 +59,9 @@ ALTER TABLE `students`
 --
 
 --
--- AUTO_INCREMENT for table `students`
+-- AUTO_INCREMENT for table `pepito`
 --
-ALTER TABLE `students`
+ALTER TABLE `pepito`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
 COMMIT;
 

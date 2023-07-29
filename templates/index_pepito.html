@@ -12,13 +12,13 @@
 <body>
     
 <div class="container-fluid">
-<h1 class="text-center alert ">Mi primera aplicacion oeoeoe desde equipo rené</h1>
+<h1 class="text-center alert ">Mi primera aplicacion pepito</h1>
         <div class="row">
             <div class="col-sm-2"></div>
 
             <!-- content goes here -->
             <div class="col-sm-8">
-<h2 >Lista de estudiantes <button class="btn btn-primary float-right" data-toggle="modal" data-target="#myModal">Add Student</button></h2>
+<h2 >Lista de pepitos <button class="btn btn-primary float-right" data-toggle="modal" data-target="#myModal">Add Student</button></h2>
 
 {%with messages = get_flashed_messages()%}
 {%if messages%}
@@ -94,7 +94,7 @@
         </tr>
     </thead>
     <tbody>
-        {% for row in students %}
+        {% for row in lista_data %}
         <tr>
         <td>{{row.0}}</td>
         <td>{{row.1}}</td>
